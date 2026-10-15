@@ -1,1 +1,44 @@
-# PAGUINA-WEB.HTML
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Esto es lo que se envía a la máquina -->
+    <title>La web de Anthony Arboleda</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <!-- Esto es lo que se muestra al ser humano -->
+    <h1>Anthony Josua Arboleda Arias</h1>
+	<h2>Camarero,Estudiante de ASIR</h2>
+	<nav>
+        <a href="#inicio">inicio</a>
+		<a href="#destacado">destacado</a>
+		<a href="#sobremi">Sobre mi</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+	</nav>
+    </header>
+    <main>
+    <section id="inicio">
+        <h3>Inicio</h3>
+        <p>Este es el texto que pondréis dentro del inicio</p>
+		<img src="anthony.jpg">
+      </section>
+      <section id="destacado">
+        <h3>Destacado</h3>
+        <p>Este es el texto que pondréis dentro de destacado</p>
+      </section>
+      <section id="sobremi">
+        <h3>Sobre mi</h3>
+      </section>
+      <section id="blog">
+        <h3>Blog</h3>
+      </section>
+      <section id="contacto">
+        <h3>Contacto</h3>
+      </section>
+    </main>
+    <footer>
+      Yo soy el pié de página
+    </footer>
+  </body>
+</html>
